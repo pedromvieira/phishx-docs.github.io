@@ -7,11 +7,16 @@ set -e
 npm run docs:build
 
 # copy
-rm -rf build/
-mkdir -p build/
-cp -R docs/.vuepress/dist/ build/
+rm -rf ../phishx-docs.github.io-temp/
+mkdir -p ../phishx-docs.github.io-temp/
+cp -R docs/.vuepress/dist/ ../phishx-docs.github.io-temp/
 
 # publish
+git add .
+git commit -m 'pre-deploy'
+git push -u origin master
+
+
 git checkout gh-pages
 git add build/.
 git commit -m 'deploy'
