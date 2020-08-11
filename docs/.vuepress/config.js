@@ -15,7 +15,7 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['meta', { name: 'msapplication-config', content: 'https://cdn.phishx.io/app/icons/browserconfig.xml' }]
   ],
-  base: '/phishx.github.io/build/',
+  // base: '/',
   locales: {
     '/': {
       lang: 'English',

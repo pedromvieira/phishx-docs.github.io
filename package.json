@@ -1,5 +1,5 @@
 {
-  "name": "phishx.github.io",
+  "name": "phishx-docs.github.io",
   "version": "0.0.1",
   "description": "PhishX Documentation",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "name": "Pedro Vieira",
     "email": "pedro.vieira@phishx.io"
   },
-  "repository": "https://github.com/pedromvieira/phishx.github.io",
+  "repository": "https://github.com/phishx-docs/phishx-docs.github.io",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",

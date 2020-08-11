@@ -1,2 +1,2 @@
-# phishx.github.io
+# phishx-docs.github.io
 PhishX Documentation
