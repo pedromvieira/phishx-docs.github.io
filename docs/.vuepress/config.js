@@ -34,6 +34,10 @@ module.exports = {
       description: 'Documentação da PhishX',
     }
   },
+  theme: 'vuepress-theme-succinct',
+  globalUIComponents: [
+    'ThemeManager'
+  ],
   themeConfig: {
     repo: '',
     activeHeaderLinks: true,
@@ -43,6 +47,7 @@ module.exports = {
     editLinkText: '',
     lastUpdated: false,
     logo: 'https://cdn.phishx.io/img/phishx/phishx_logo_gray.png',
+    sidebarDepth: 2,
     locales: {
       '/': {
         lang: 'English',
@@ -56,7 +61,19 @@ module.exports = {
             text: 'Guide',
             link: '/en/guide/'
           }
-        ]
+        ],
+        sidebar: [
+          '/en/guide/',
+          {
+            title: 'Group 1',
+            collapsable: true,
+            sidebarDepth: 2,
+            children: [
+              '/en/guide/sub/test',
+              '/en/guide/sub/test2'
+            ]
+          },
+        ],
       },
       '/pt/': {
         lang: 'Português',
@@ -76,6 +93,7 @@ module.exports = {
   },
   plugins: [
     '@vuepress/plugin-back-to-top',
+    'vuepress-plugin-smooth-scroll',
     '@vuepress/plugin-medium-zoom',
   ]
 }

@@ -1,0 +1,56 @@
+Arguments: 
+  /Users/vieira/.asdf/installs/nodejs/12.6.0/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js dev
+
+PATH: 
+  /Users/vieira/.asdf/installs/nodejs/12.6.0/bin:/Users/vieira/.asdf/installs/nodejs/12.6.0/.npm/bin:/Users/vieira/google-cloud-sdk/bin:/usr/local/sbin:/usr/local/opt/mysql-client/bin:/usr/local/opt/openssl/bin:/Users/vieira/.asdf/shims:/Users/vieira/.asdf/bin:/Users/vieira/google-cloud-sdk/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/usr/local/share/dotnet:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/vieira/google-cloud-sdk/bin:/usr/local/sbin:/usr/local/opt/mysql-client/bin:/usr/local/opt/openssl/bin:/Users/vieira/bin:/Users/vieira/.asdf/installs/nodejs/10.9.0/.npm/bin:/Users/vieira/bin:/Users/vieira/.asdf/installs/nodejs/10.9.0/.npm/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.6.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/vieira/GDRIVE_PHISHX/DEV/phishx.github.io/package.json: Unexpected token / in JSON at position 573
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "phishx-docs.github.io",
+    "version": "0.0.1",
+    "description": "PhishX Documentation",
+    "main": "index.js",
+    "authors": {
+      "name": "Pedro Vieira",
+      "email": "pedro.vieira@phishx.io"
+    },
+    "repository": "https://github.com/phishx-docs/phishx-docs.github.io",
+    "scripts": {
+      "dev": "vuepress dev docs",
+      "build": "vuepress build docs",
+      "docs:build": "vuepress build docs"
+    },
+    "license": "MIT",
+    "devDependencies": {
+      "@vuepress/plugin-back-to-top": "^1.5.3",
+      "@vuepress/plugin-medium-zoom": "^1.5.3",
+      "vuepress": "^1.5.3",
+      // "vuepress-theme-book": "0.0.4",
+      "vuepress-theme-dark-new": "^0.1.2",
+      "vuepress-theme-succinct": "^1.5.3"
+      // "vuepress-theme-yuu": "^2.3.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
