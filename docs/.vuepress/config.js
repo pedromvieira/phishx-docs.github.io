@@ -26,18 +26,18 @@ module.exports = {
       label: 'English',
       selectText: 'Languages',
       ariaLabel: 'Languages',
-      title: 'PhishX',
-      description: 'PhishX',
-      tagline: 'Documentation'
+      title: 'Documentation',
+      description: 'PhishX - Documentation',
+      tagline: null
     },
     '/pt/': {
       lang: 'Português',
       label: 'Português',
       selectText: 'Idiomas',
       ariaLabel: 'Idiomas',
-      title: 'PhishX',
-      description: 'PhishX',
-      tagline: 'Documentação'
+      title: 'Documentação',
+      description: 'PhishX - Documentação',
+      tagline: null
     }
   },
   theme: 'vuepress-theme-succinct',
@@ -107,5 +107,6 @@ module.exports = {
     '@vuepress/plugin-back-to-top',
     'vuepress-plugin-smooth-scroll',
     '@vuepress/plugin-medium-zoom',
+    ['vuepress-plugin-code-copy', true]
   ]
 }
