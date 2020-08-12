@@ -6,9 +6,9 @@ set -e
 # commit
 git checkout gh-pages
 cp -R ../phishx-docs.github.io-temp/ ./
-git add build/.
+git add .
 git commit -m 'deploy'
-git push -u origin gh-pages
+git push https://phishx-docs@github.com/phishx-docs/phishx-docs.github.io.git gh-pages
 
 # go back
 git checkout master
