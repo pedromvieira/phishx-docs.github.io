@@ -1,7 +1,10 @@
 const { description } = require('../../package')
 
 module.exports = {
-  title: 'Documentation',
+  markdown: {
+    lineNumbers: false
+  },
+  title: 'PhishX',
   description: description,
   head: [
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: 'https://cdn.phishx.io/app/icons/apple-touch-icon.png' }],
@@ -16,22 +19,25 @@ module.exports = {
     ['meta', { name: 'msapplication-config', content: 'https://cdn.phishx.io/app/icons/browserconfig.xml' }]
   ],
   // base: '/',
+  smoothScroll: true,
   locales: {
     '/': {
       lang: 'English',
       label: 'English',
       selectText: 'Languages',
-      ariaLabel: 'Documentation',
-      title: 'Documentation',
-      description: 'PhishX Documentation',
+      ariaLabel: 'Languages',
+      title: 'PhishX',
+      description: 'PhishX',
+      tagline: 'Documentation'
     },
     '/pt/': {
       lang: 'Português',
       label: 'Português',
       selectText: 'Idiomas',
       ariaLabel: 'Idiomas',
-      title: 'Documentação',
-      description: 'Documentação da PhishX',
+      title: 'PhishX',
+      description: 'PhishX',
+      tagline: 'Documentação'
     }
   },
   theme: 'vuepress-theme-succinct',
@@ -47,15 +53,8 @@ module.exports = {
     editLinkText: '',
     lastUpdated: false,
     logo: 'https://cdn.phishx.io/img/phishx/phishx_logo_gray.png',
-    sidebarDepth: 2,
     locales: {
       '/': {
-        lang: 'English',
-        label: 'English',
-        selectText: 'Languages',
-        ariaLabel: 'Documentation',
-        title: 'Documentation',
-        description: 'PhishX Documentation',
         nav: [
           {
             text: 'Guide',
@@ -65,23 +64,36 @@ module.exports = {
         sidebar: [
           '/en/guide/',
           {
-            title: 'Group 1',
+            title: 'Requirements',
             collapsable: true,
-            sidebarDepth: 2,
+            sidebarDepth: 0,
             children: [
-              '/en/guide/sub/test',
-              '/en/guide/sub/test2'
+              {
+                title: 'Global',
+                collapsable: true,
+                sidebarDepth: 0,
+                children: [
+                  '/en/guide/requirements/',
+                  '/en/guide/requirements/domains',
+                  '/en/guide/requirements/ips',
+                ]
+              },
+              {
+                title: 'Google G Suite',
+                collapsable: true,
+                sidebarDepth: 0,
+                children: [
+                  '/en/guide/requirements/google-gsuite/',
+                  '/en/guide/requirements/google-gsuite/image_url',
+                  '/en/guide/requirements/google-gsuite/email_whitelist',
+                  '/en/guide/requirements/google-gsuite/spam',
+                ]
+              },
             ]
           },
         ],
       },
       '/pt/': {
-        lang: 'Português',
-        label: 'Português',
-        selectText: 'Idiomas',
-        ariaLabel: 'Idiomas',
-        title: 'Documentação',
-        description: 'Documentação da PhishX',
         nav: [
           {
             text: 'Guia',

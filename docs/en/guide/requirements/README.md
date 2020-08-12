@@ -1,0 +1,39 @@
+---
+title: Requirements
+tags:
+  - Requirements
+---
+# Requirements
+
+## tl;dr
+
+1. Copy our information:
+   * Domains list. [Domains](/en/guide/requirements/domains)
+   * Copy our IPs list. [IPs](/en/guide/requirements/ips)
+2. Change your environment:
+   * E-mail protection settings.
+   * Web Content Filter protection settings.
+3. Verify:
+   * Define the people who will participate in the validation.
+   * Access the portal, or ask for our support, and send a validation e-mail campaign.
+
+## Settings
+
+The technical requirements are simple and we have this great guide to illustrate them, with several options and preference suggestions.
+In general, you need to ensure that the user will receive our messages and will be able to access our online training portal.
+
+::: tip TIP
+We recommend allowing all of our domains and IPs.
+:::
+
+::: details Minimun Requirements
+You can choose "phishx.io" and any other domain available as a minimum requirements.
+:::
+
+If you have additional questions, we can make a conference call or send an email to [PhishX Support](mailto:support@phishx.io).
+
+> We are available to help your teams.
+
+
+
+

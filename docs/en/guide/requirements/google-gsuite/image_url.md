@@ -1,4 +1,26 @@
-# Test
+---
+title: Image URL proxy whitelist
+tags:
+  # - Requirements
+  - Google
+  - G Suite
+  - Gmail
+---
+# Image URL proxy whitelist
+
+## tl;dr
+
+1. Copy our information:
+   * Domains list. [Domains](/en/guide/requirements/domains)
+   * Copy our IPs list. [IPs](/en/guide/requirements/ips)
+2. Change your environment:
+   * E-mail protection settings.
+   * Web Content Filter protection settings.
+3. Verify:
+   * Define the people who will participate in the validation.
+   * Access the portal, or ask for our support, and send a validation e-mail campaign.
+
+## Settings
 
 VuePress is composed of two parts: a [minimalistic static site generator](https://github.com/vuejs/vuepress/tree/master/packages/%40vuepress/core) with a Vue-powered [theming system](https://v1.vuepress.vuejs.org/theme/) and [Plugin API](https://v1.vuepress.vuejs.org/plugin/), and a [default theme](https://v1.vuepress.vuejs.org/theme/default-theme-config.html) optimized for writing technical documentation. It was created to support the documentation needs of Vue's own sub projects.
 
