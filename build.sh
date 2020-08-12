@@ -14,4 +14,4 @@ cp -R docs/.vuepress/dist/ ../phishx-docs.github.io-temp/
 # pre commit
 git add .
 git commit -m 'pre-deploy'
-gir push https://phishx-docs@github.com/phishx-docs/phishx-docs.github.io.git origin master
+git push https://phishx-docs@github.com/phishx-docs/phishx-docs.github.io.git master
