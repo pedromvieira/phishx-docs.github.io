@@ -9,6 +9,7 @@ cp -R ../phishx-docs.github.io-temp/ ./
 git add .
 git commit -m 'deploy'
 git push https://phishx-docs@github.com/phishx-docs/phishx-docs.github.io.git gh-pages
+git push
 
 # go back
 git checkout master
