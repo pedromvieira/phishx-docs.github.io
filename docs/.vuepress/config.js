@@ -19,25 +19,47 @@ module.exports = {
     ['meta', { name: 'msapplication-config', content: 'https://cdn.phishx.io/app/icons/browserconfig.xml' }]
   ],
   // base: '/',
+  // algolia: {
+  //   apiKey: '<API_KEY>',
+  //   indexName: '<INDEX_NAME>'
+  // },
   smoothScroll: true,
   locales: {
     '/': {
+      // lang: 'en-US',
       lang: 'English',
-      label: 'English',
       selectText: 'Languages',
+      label: 'English',
       ariaLabel: 'Languages',
+      //
       title: 'Documentation',
       description: 'PhishX - Documentation',
-      tagline: null
+      tagline: null,
+      //
+      serviceWorker: {
+        updatePopup: {
+          message: "New content is available.",
+          buttonText: "Refresh"
+        }
+      }
     },
     '/pt/': {
+      // lang: 'pt-BR',
       lang: 'Português',
-      label: 'Português',
       selectText: 'Idiomas',
+      label: 'Português',
       ariaLabel: 'Idiomas',
+      //
       title: 'Documentação',
       description: 'PhishX - Documentação',
-      tagline: null
+      tagline: null,
+      //
+      serviceWorker: {
+        updatePopup: {
+          message: "Novo conteúdo disponível.",
+          buttonText: "Atualizar"
+        }
+      }
     }
   },
   theme: 'vuepress-theme-succinct',
@@ -51,10 +73,10 @@ module.exports = {
     displayAllHeaders: true,
     docsDir: '',
     editLinkText: '',
-    lastUpdated: false,
     logo: 'https://cdn.phishx.io/img/phishx/phishx_logo_gray.png',
     locales: {
       '/': {
+        lastUpdated: 'Last Updated',
         nav: [
           {
             text: 'Guide',
@@ -76,6 +98,8 @@ module.exports = {
                   '/en/guide/requirements/',
                   '/en/guide/requirements/domains',
                   '/en/guide/requirements/ips',
+                  '/en/guide/requirements/communications',
+                  '/en/guide/requirements/certificates',
                 ]
               },
               {
@@ -94,6 +118,7 @@ module.exports = {
         ],
       },
       '/pt/': {
+        lastUpdated: 'Última Atualzação',
         nav: [
           {
             text: 'Guia',
@@ -107,6 +132,44 @@ module.exports = {
     '@vuepress/plugin-back-to-top',
     'vuepress-plugin-smooth-scroll',
     '@vuepress/plugin-medium-zoom',
-    ['vuepress-plugin-code-copy', true]
+    [
+      '@vuepress/search',
+      {
+        searchMaxSuggestions: 10
+      }
+    ],
+    [
+      '@vuepress/pwa',
+      {
+        serviceWorker: true,
+        updatePopup: true
+      }
+    ],
+    [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp, lang) => {
+          const moment = require('moment')
+          var locale
+          switch (lang) {
+            case ("English"):
+              locale = "en-US"
+              break
+            case ("Português"):
+              locale = "pt-BR"
+              break
+            default:
+              locale = "en-US"
+              break
+          }
+          moment.locale(lang)
+          return moment(timestamp).fromNow()
+        }
+      }
+    ],
+    [
+      'vuepress-plugin-code-copy',
+      true
+    ]
   ]
 }
