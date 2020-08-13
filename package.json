@@ -24,6 +24,7 @@
     "vuepress": "^1.5.3",
     "vuepress-plugin-code-copy": "^1.0.6",
     "vuepress-theme-dark-new": "^0.1.2",
-    "vuepress-theme-succinct": "^1.5.3"
+    "vuepress-theme-succinct": "^1.5.3",
+    "vuepress-plugin-export": "^0.2.0"
   }
 }

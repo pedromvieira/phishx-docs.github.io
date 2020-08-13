@@ -5,10 +5,10 @@ tags:
 ---
 # Requirements
 
-## tl;dr
+## TL;DR
 
 1. Copy our information:
-   * Domains list. [Domains](/en/guide/requirements/domains)
+   * Copy our Domains list. [Domains](/en/guide/requirements/domains)
    * Copy our IPs list. [IPs](/en/guide/requirements/ips)
 2. Change your environment:
    * E-mail protection settings.
@@ -29,7 +29,7 @@ We recommend allowing all of our domains and IPs.
 ::: details Minimun Requirements
 You can choose "phishx.io" and any other domain available as a minimum requirements.
 <br>
-If you need to allow only fully qualified domain name (FQDN), choose a hostname (ex: "host"), and allow only "cdn.phish.io" and "host.PHISHX_CHOSEN_DOMAIN".
+If you need to allow only fully qualified domain name (FQDN), choose a hostname (ex: "host"), and allow only "cdn.phishx.io" and "host.PHISHX_CHOSEN_DOMAIN".
 :::
 
 If you have additional questions, we can make a conference call or send an email to [PhishX Support](mailto:support@phishx.io).

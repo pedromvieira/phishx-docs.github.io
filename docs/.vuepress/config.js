@@ -1,5 +1,109 @@
 const { description } = require('../../package')
 
+function config_base_locales(extra) {
+  var config = {
+    lang: extra.lang,
+    description: extra.description,
+    title: extra.title,
+    serviceWorker: extra.serviceWorker
+  }
+  return config
+}
+function config_locales(locale, extra) {
+  var dir_guide = 'guide'
+  var dir_requirements = 'requirements'
+  var dir_google_gsuite = 'google-gsuite'
+  var config = {
+    description: extra.description,
+    title: extra.title,
+    tagline: null,
+    selectText: extra.lang_selectText,
+    label: extra.lang_label,
+    ariaLabel: extra.lang_selectText,
+    lastUpdated: extra.lastUpdated,
+    nav: [
+      {
+        text: extra.guide,
+        link: `/${locale}/guide/`
+      }
+    ],
+    sidebar: [
+      `/${locale}/guide/`,
+      {
+        title: extra.requirements,
+        collapsable: true,
+        sidebarDepth: 0,
+        children: [
+          {
+            title: extra.global,
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+              `/${locale}/${dir_guide}/${dir_requirements}/`,
+              `/${locale}/${dir_guide}/${dir_requirements}/domains`,
+              `/${locale}/${dir_guide}/${dir_requirements}/ips`,
+              `/${locale}/${dir_guide}/${dir_requirements}/communications`,
+              `/${locale}/${dir_guide}/${dir_requirements}/certificates`,
+            ]
+          },
+          {
+            title: extra.google_gsuite,
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+              `/${locale}/${dir_guide}/${dir_requirements}/${dir_google_gsuite}/`,
+              `/${locale}/${dir_guide}/${dir_requirements}/${dir_google_gsuite}/image_url`,
+              `/${locale}/${dir_guide}/${dir_requirements}/${dir_google_gsuite}/email_whitelist`,
+              `/${locale}/${dir_guide}/${dir_requirements}/${dir_google_gsuite}/spam`,
+            ]
+          },
+        ]
+      },
+    ],
+  }
+  return config
+}
+var config_locales_en = config_locales('en', {
+  lang_selectText: 'Languages',
+  lang_label: 'English',
+  guide: 'Guide',
+  lastUpdated: 'Last Updated',
+  requirements: 'Requirements',
+  global: 'Global',
+  google_gsuite: 'Google G Suite'
+})
+var config_locales_pt = config_locales('pt', {
+  lang_selectText: 'Idiomas',
+  lang_label: 'Português',
+  guide: 'Guia',
+  lastUpdated: 'Última Atualização',
+  requirements: 'Requisitos',
+  global: 'Global',
+  google_gsuite: 'Google G Suite'
+})
+var config_base_locales_en = config_base_locales({
+  lang: 'English',
+  description: 'PhishX - Documentation',
+  title: 'Documentation',
+  serviceWorker: {
+    updatePopup: {
+      message: "New content is available.",
+      buttonText: "Refresh"
+    }
+  }
+})
+var config_base_locales_pt = config_base_locales({
+  lang: 'Português',
+  description: 'Documentação da PhishX',
+  title: 'Documentação',
+  serviceWorker: {
+    updatePopup: {
+      message: "Novo conteúdo disponível.",
+      buttonText: "Atualizar"
+    }
+  }
+})
+
 module.exports = {
   markdown: {
     lineNumbers: false
@@ -25,42 +129,8 @@ module.exports = {
   // },
   smoothScroll: true,
   locales: {
-    '/': {
-      // lang: 'en-US',
-      lang: 'English',
-      selectText: 'Languages',
-      label: 'English',
-      ariaLabel: 'Languages',
-      //
-      title: 'Documentation',
-      description: 'PhishX - Documentation',
-      tagline: null,
-      //
-      serviceWorker: {
-        updatePopup: {
-          message: "New content is available.",
-          buttonText: "Refresh"
-        }
-      }
-    },
-    '/pt/': {
-      // lang: 'pt-BR',
-      lang: 'Português',
-      selectText: 'Idiomas',
-      label: 'Português',
-      ariaLabel: 'Idiomas',
-      //
-      title: 'Documentação',
-      description: 'PhishX - Documentação',
-      tagline: null,
-      //
-      serviceWorker: {
-        updatePopup: {
-          message: "Novo conteúdo disponível.",
-          buttonText: "Atualizar"
-        }
-      }
-    }
+    '/': config_base_locales_en,
+    '/pt/': config_base_locales_pt
   },
   theme: 'vuepress-theme-succinct',
   globalUIComponents: [
@@ -75,63 +145,15 @@ module.exports = {
     editLinkText: '',
     logo: 'https://cdn.phishx.io/img/phishx/phishx_logo_gray.png',
     locales: {
-      '/': {
-        lastUpdated: 'Last Updated',
-        nav: [
-          {
-            text: 'Guide',
-            link: '/en/guide/'
-          }
-        ],
-        sidebar: [
-          '/en/guide/',
-          {
-            title: 'Requirements',
-            collapsable: true,
-            sidebarDepth: 0,
-            children: [
-              {
-                title: 'Global',
-                collapsable: true,
-                sidebarDepth: 0,
-                children: [
-                  '/en/guide/requirements/',
-                  '/en/guide/requirements/domains',
-                  '/en/guide/requirements/ips',
-                  '/en/guide/requirements/communications',
-                  '/en/guide/requirements/certificates',
-                ]
-              },
-              {
-                title: 'Google G Suite',
-                collapsable: true,
-                sidebarDepth: 0,
-                children: [
-                  '/en/guide/requirements/google-gsuite/',
-                  '/en/guide/requirements/google-gsuite/image_url',
-                  '/en/guide/requirements/google-gsuite/email_whitelist',
-                  '/en/guide/requirements/google-gsuite/spam',
-                ]
-              },
-            ]
-          },
-        ],
-      },
-      '/pt/': {
-        lastUpdated: 'Última Atualzação',
-        nav: [
-          {
-            text: 'Guia',
-            link: '/pt/guide/'
-          }
-        ]
-      }
+      '/': config_locales_en,
+      '/pt/': config_locales_pt
     },
   },
   plugins: [
     '@vuepress/plugin-back-to-top',
     'vuepress-plugin-smooth-scroll',
     '@vuepress/plugin-medium-zoom',
+    'vuepress-plugin-export',
     [
       '@vuepress/search',
       {
@@ -162,7 +184,7 @@ module.exports = {
               locale = "en-US"
               break
           }
-          moment.locale(lang)
+          moment.locale(locale)
           return moment(timestamp).fromNow()
         }
       }

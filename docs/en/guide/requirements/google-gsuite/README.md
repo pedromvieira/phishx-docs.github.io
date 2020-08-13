@@ -8,18 +8,18 @@ tags:
 ---
 # Google G Suite
 
-## tl;dr
+## TL;DR
 
-1. Access the Google Admin Console - "Settings for Gmail": [Settings for Gmail](https://admin.google.com/AdminHome#AppDetails:service=email)
+1. Access the **Settings for Gmail**: [Settings for Gmail](https://admin.google.com/AdminHome#AppDetails:service=email)
 
 ## Settings
 
-1. Access the Google Admin Console.
+1. Access the **Google Admin Console**.
 
 [Admin Console](https://admin.google.com)
 ![Admin Console](https://cdn.phishx.io/phishx-docs/images/google_admin_01.webp)
 
-2. Access "Settings for Gmail" in menu: Apps -> G Suite -> Gmail
+2. Access **Settings for Gmail** in menu: **Apps -> G Suite -> Gmail**
 
 [Settings for Gmail](https://admin.google.com/AdminHome#AppDetails:service=email)
 ![Settings for Gmail](https://cdn.phishx.io/phishx-docs/images/google_admin_02.webp)

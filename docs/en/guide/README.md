@@ -11,7 +11,7 @@ In a digital society, comprehensive strategies must be devised to protect its em
 
 Meet PhishX!
 
-A digital security ecosystem for People that simplifies cyber risk mitigation, covering a complete set of solutions: 
+A digital security ecosystem for People that simplifies cyber risk mitigation, covering a complete set of solutions:
 
 - Awareness Platform: PhishX.
 - Personal Assistant against digital fraud: PhishX Assistant.
