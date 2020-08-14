@@ -13,6 +13,7 @@ function config_locales(locale, extra) {
   var dir_guide = 'guide'
   var dir_requirements = 'requirements'
   var dir_google_gsuite = 'google-gsuite'
+  var dir_microsoft_365 = 'microsoft-365'
   var config = {
     description: extra.description,
     title: extra.title,
@@ -24,11 +25,11 @@ function config_locales(locale, extra) {
     nav: [
       {
         text: extra.guide,
-        link: `/${locale}/guide/`
+        link: `/${locale}/${dir_guide}/`
       }
     ],
     sidebar: [
-      `/${locale}/guide/`,
+      `/${locale}/${dir_guide}/`,
       {
         title: extra.requirements,
         collapsable: true,
@@ -57,6 +58,17 @@ function config_locales(locale, extra) {
               `/${locale}/${dir_guide}/${dir_requirements}/${dir_google_gsuite}/spam`,
             ]
           },
+          {
+            title: extra.microsoft_365,
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+              `/${locale}/${dir_guide}/${dir_requirements}/${dir_microsoft_365}/`,
+              `/${locale}/${dir_guide}/${dir_requirements}/${dir_microsoft_365}/connectors`,
+              `/${locale}/${dir_guide}/${dir_requirements}/${dir_microsoft_365}/spam_filter`,
+              `/${locale}/${dir_guide}/${dir_requirements}/${dir_microsoft_365}/connection_filter`,
+            ]
+          },
         ]
       },
     ],
@@ -69,8 +81,9 @@ var config_locales_en = config_locales('en', {
   guide: 'Guide',
   lastUpdated: 'Last Updated',
   requirements: 'Requirements',
-  global: 'Global',
-  google_gsuite: 'Google G Suite'
+  global: 'General',
+  google_gsuite: 'Google G Suite',
+  microsoft_365: 'Microsoft 365'
 })
 var config_locales_pt = config_locales('pt', {
   lang_selectText: 'Idiomas',
@@ -78,8 +91,9 @@ var config_locales_pt = config_locales('pt', {
   guide: 'Guia',
   lastUpdated: 'Última Atualização',
   requirements: 'Requisitos',
-  global: 'Global',
-  google_gsuite: 'Google G Suite'
+  global: 'Gerais',
+  google_gsuite: 'Google G Suite',
+  microsoft_365: 'Microsoft 365'
 })
 var config_base_locales_en = config_base_locales({
   lang: 'English',
@@ -123,10 +137,10 @@ module.exports = {
     ['meta', { name: 'msapplication-config', content: 'https://cdn.phishx.io/app/icons/browserconfig.xml' }]
   ],
   // base: '/',
-  // algolia: {
-  //   apiKey: '<API_KEY>',
-  //   indexName: '<INDEX_NAME>'
-  // },
+  algolia: {
+    apiKey: '158795655be346db4f358da20bc6aef9',
+    indexName: 'phishx'
+  },
   smoothScroll: true,
   locales: {
     '/': config_base_locales_en,

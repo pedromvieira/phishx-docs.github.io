@@ -16,15 +16,15 @@ tags:
 
 1. Go to **End User Acess**.
 
-[End User Acess](https://admin.google.com/ac/apps/gmail/enduseraccess)
+   [End User Acess](https://admin.google.com/ac/apps/gmail/enduseraccess)
 ![End User Acess](https://cdn.phishx.io/phishx-docs/images/google_admin_03.webp)
 
 2. Edit **Image URL proxy whitelist** -> **Enter image URL patterns. Matching URLs bypass the image proxy.**
 
-[Reference](https://support.google.com/a/answer/3299041)
+   [Reference](https://support.google.com/a/answer/3299041)
 
 3. Add our current domains list: [Domains](../domains.html#separated-by-lines)
 
 ![Image URL proxy whitelist](https://cdn.phishx.io/phishx-docs/images/google_admin_04.webp)
 
-4. Save.
+4. Click **Save**.

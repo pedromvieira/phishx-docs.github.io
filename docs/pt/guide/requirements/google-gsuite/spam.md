@@ -10,18 +10,18 @@ tags:
 
 ## Resumo
 
-1. Adicione nossa lista atual de domínios em **Spam**: [Domínios](../domains.html#separado-por-espacos)
+1. Adicionar nossa lista atual de domínios em **Spam**: [Domínios](../domains.html#separado-por-espacos)
 
 ## Configurações
 
 1. Ir para **Configurações avançadas**.
 
-[Configurações avançadas](https://admin.google.com/AdminHome#ServiceSettings/service=email&subtab=filters)
+   [Configurações avançadas](https://admin.google.com/AdminHome#ServiceSettings/service=email&subtab=filters)
 ![Configurações avançadas](https://cdn.phishx.io/phishx-docs/images/google_admin_05.webp)
 
 2. Editar **Spam, phishing e malware** -> **Spam**
 
-[Referência](https://support.google.com/a/answer/2368132)
+   [Referência](https://support.google.com/a/answer/2368132)
 
 ![Spam](https://cdn.phishx.io/phishx-docs/images/google_admin_07.webp)
 
@@ -31,10 +31,10 @@ tags:
 
 ![Spam](https://cdn.phishx.io/phishx-docs/images/google_admin_08.webp)
 
-4. Adicione nossa lista atual de domínios: [Domínios](../domains.html#separado-por-espacos)
+4. Adicionar nossa lista atual de domínios: [Domínios](../domains.html#separado-por-espacos)
 
 ![Spam](https://cdn.phishx.io/phishx-docs/images/google_admin_09.webp)
 
 ![Spam](https://cdn.phishx.io/phishx-docs/images/google_admin_10.webp)
 
-4. Salvar.
+4. Clicar **Salvar**.

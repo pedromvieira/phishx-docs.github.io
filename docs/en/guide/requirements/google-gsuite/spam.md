@@ -16,12 +16,12 @@ tags:
 
 1. Go to **Advanced Settings**.
 
-[Advanced Settings](https://admin.google.com/AdminHome#ServiceSettings/service=email&subtab=filters)
+   [Advanced Settings](https://admin.google.com/AdminHome#ServiceSettings/service=email&subtab=filters)
 ![Advanced Settings](https://cdn.phishx.io/phishx-docs/images/google_admin_05.webp)
 
 2. Edit **Spam, phishing and malware** -> **Spam**
 
-[Reference](https://support.google.com/a/answer/2368132)
+   [Reference](https://support.google.com/a/answer/2368132)
 
 ![Spam](https://cdn.phishx.io/phishx-docs/images/google_admin_07.webp)
 
@@ -37,4 +37,4 @@ tags:
 
 ![Spam](https://cdn.phishx.io/phishx-docs/images/google_admin_10.webp)
 
-4. Save.
+4. Click **Save**.

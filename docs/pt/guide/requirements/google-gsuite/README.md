@@ -10,16 +10,16 @@ tags:
 
 ## Resumo
 
-1. Acesse as **Configurações do Gmail**: [Configurações do Gmail](https://admin.google.com/AdminHome#AppDetails:service=email)
+1. Acessar as **Configurações do Gmail**: [Configurações do Gmail](https://admin.google.com/AdminHome#AppDetails:service=email)
 
 ## Configurações
 
-1. Acesse o **Google Admin Console**.
+1. Acessar o **Google Admin Console**.
 
-[Admin Console](https://admin.google.com)
+   [Admin Console](https://admin.google.com)
 ![Admin Console](https://cdn.phishx.io/phishx-docs/images/google_admin_01.webp)
 
-2. Acesse as **Configurações do Gmail** no menu: **Apps -> G Suite -> Gmail**
+2. Acessar as **Configurações do Gmail** no menu: **Apps -> G Suite -> Gmail**
 
-[Configurações do Gmail](https://admin.google.com/AdminHome#AppDetails:service=email)
+   [Configurações do Gmail](https://admin.google.com/AdminHome#AppDetails:service=email)
 ![Configurações do Gmail](https://cdn.phishx.io/phishx-docs/images/google_admin_02.webp)
