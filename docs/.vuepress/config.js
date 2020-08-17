@@ -181,6 +181,7 @@ module.exports = {
   // base: '/',
   algolia: {
     apiKey: '158795655be346db4f358da20bc6aef9',
+    appId: 'BH4D9OD16A',
     indexName: 'phishx'
   },
   smoothScroll: true,
