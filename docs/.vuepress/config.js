@@ -4,8 +4,7 @@ function config_base_locales(extra) {
   var config = {
     lang: extra.lang,
     description: extra.description,
-    title: extra.title,
-    serviceWorker: extra.serviceWorker
+    title: extra.title
   }
   return config
 }
@@ -19,12 +18,19 @@ function config_locales(locale, extra) {
   var dir_azure_ad = 'azure-ad'
   var config = {
     description: extra.description,
+    searchPlaceholder: extra.searchPlaceholder,
     title: extra.title,
     tagline: null,
     selectText: extra.lang_selectText,
     label: extra.lang_label,
     ariaLabel: extra.lang_selectText,
     lastUpdated: extra.lastUpdated,
+    serviceWorker: {
+      updatePopup: {
+        message: extra.serviceWorker_message,
+        buttonText: extra.serviceWorker_buttonText
+      }
+    },
     nav: [
       {
         text: extra.guide,
@@ -122,7 +128,10 @@ var config_locales_en = config_locales('en', {
   google_gsuite: 'Google G Suite',
   microsoft_365: 'Microsoft 365',
   intregrations: 'Intregrations',
-  azure_ad: 'Azure AD'
+  azure_ad: 'Azure AD',
+  serviceWorker_message: 'New content is available.',
+  serviceWorker_buttonText: 'Refresh',
+  searchPlaceholder: 'Search...'
 })
 var config_locales_pt = config_locales('pt', {
   lang_selectText: 'Idiomas',
@@ -135,29 +144,20 @@ var config_locales_pt = config_locales('pt', {
   google_gsuite: 'Google G Suite',
   microsoft_365: 'Microsoft 365',
   intregrations: 'Integrações',
-  azure_ad: 'Azure AD'
+  azure_ad: 'Azure AD',
+  serviceWorker_message: 'Novo conteúdo disponível.',
+  serviceWorker_buttonText: 'Atualizar',
+  searchPlaceholder: 'Procurar...'
 })
 var config_base_locales_en = config_base_locales({
   lang: 'English',
   description: 'PhishX - Documentation',
-  title: 'Documentation',
-  serviceWorker: {
-    updatePopup: {
-      message: "New content is available.",
-      buttonText: "Refresh"
-    }
-  }
+  title: 'Documentation'
 })
 var config_base_locales_pt = config_base_locales({
   lang: 'Português',
   description: 'Documentação da PhishX',
-  title: 'Documentação',
-  serviceWorker: {
-    updatePopup: {
-      message: "Novo conteúdo disponível.",
-      buttonText: "Atualizar"
-    }
-  }
+  title: 'Documentação'
 })
 
 module.exports = {
