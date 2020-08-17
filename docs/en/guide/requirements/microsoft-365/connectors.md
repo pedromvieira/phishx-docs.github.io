@@ -26,37 +26,37 @@ tags:
 
 ![Add a connector](https://cdn.phishx.io/phishx-docs/images/microsoft_365_02.webp)
 
-4. In **New Connector** -> **Connection from** select **Partner organization**.
+3. In **New Connector** -> **Connection from** select **Partner organization**.
 
    Click **Next**.
 
 ![New Connector](https://cdn.phishx.io/phishx-docs/images/microsoft_365_03.webp)
 
-5. In **Connector name** -> **Name** fill "PhishX" and select **Turn it on**.
+4. In **Connector name** -> **Name** fill "PhishX" and select **Turn it on**.
 
    Click **Next**.
 
 ![Connector name](https://cdn.phishx.io/phishx-docs/images/microsoft_365_04.webp)
 
-6. In **Authenticating sent email** select **By verifying that the IP address of the sending server matches one of the following IP addresses, which belong to your partner organization**. Add our current IPs list: [IPs](../ips.html#separated-by-lines).
+5. In **Authenticating sent email** select **By verifying that the IP address of the sending server matches one of the following IP addresses, which belong to your partner organization**. Add our current IPs list: [IPs](../ips.html#separated-by-lines).
 
    Click **Next**.
 
 ![Authenticating sent email](https://cdn.phishx.io/phishx-docs/images/microsoft_365_05.webp)
 
-7. In **Security restrictions** select **Reject email messages if they aren't sent over TLS**.
+6. In **Security restrictions** select **Reject email messages if they aren't sent over TLS**.
 
    Click **Next**.
 
 ![Security restrictions](https://cdn.phishx.io/phishx-docs/images/microsoft_365_06.webp)
 
-8. In **Review Connector**.
+7. In **Review Connector**.
 
    Click **Create connector**.
 
 ![Review Connector](https://cdn.phishx.io/phishx-docs/images/microsoft_365_07.webp)
 
-9. In **Connector created**.
+8. In **Connector created**.
 
    Click **Done**.
 

@@ -36,15 +36,19 @@ tags:
 
    Clicar **+**.
 
-6. Em **adicionar domínio permitido** adicionar nossa lista atual de domínios: [Domínios](../domains.html#separado-por-ponto-e-virgulas).
+5. Em **adicionar domínio permitido** adicionar nossa lista atual de domínios: [Domínios](../domains.html#separado-por-ponto-e-virgulas).
 
    Clicar **Ok**.
+
+::: tip DICA
+Remover todos os espaços extras após colar.
+:::
 
 ![adicionar domínio permitido](https://cdn.phishx.io/phishx-docs/images/microsoft_365_13.webp)
 
 ![adicionar domínio permitido](https://cdn.phishx.io/phishx-docs/images/microsoft_365_14.webp)
 
-7. In **nova política de filtro de spam** -> **Aplicar para** selecionar **O domínio do destinatário é** e adicionar seus próprios domínios.
+6. In **nova política de filtro de spam** -> **Aplicar para** selecionar **O domínio do destinatário é** e adicionar seus próprios domínios.
 
    Clicar **Ok**.
 
@@ -52,7 +56,7 @@ tags:
 
 ![Aplicar para](https://cdn.phishx.io/phishx-docs/images/microsoft_365_16.webp)
 
-8. Clicar **Salvar**.
+7. Clicar **Salvar**.
 
 ![Atualização completa](https://cdn.phishx.io/phishx-docs/images/microsoft_365_17.webp)
 

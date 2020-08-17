@@ -40,4 +40,4 @@ tags:
 
 ![Information](https://cdn.phishx.io/phishx-docs/images/microsoft_365_23.webp)
 
-4. Click **Ok**.
+5. Click **Ok**.

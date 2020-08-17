@@ -37,4 +37,4 @@ tags:
 
 ![Spam](https://cdn.phishx.io/phishx-docs/images/google_admin_10.webp)
 
-4. Clicar **Salvar**.
+5. Clicar **Salvar**.

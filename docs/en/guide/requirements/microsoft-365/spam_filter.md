@@ -36,15 +36,19 @@ tags:
 
    Click **+**.
 
-6. In **add allowed domain** add our current domains list: [Domains](../domains.html#separated-by-semi-colons).
+5. In **add allowed domain** add our current domains list: [Domains](../domains.html#separated-by-semi-colons).
 
    Click **Ok**.
+
+::: tip TIP
+Remove any extra spaces after paste.
+:::
 
 ![add allowed domain](https://cdn.phishx.io/phishx-docs/images/microsoft_365_13.webp)
 
 ![add allowed domain](https://cdn.phishx.io/phishx-docs/images/microsoft_365_14.webp)
 
-7. In **new spam filter policy** -> **Applied To** select **The recipient domain is** and add your own domains.
+6. In **new spam filter policy** -> **Applied To** select **The recipient domain is** and add your own domains.
 
    Click **Ok**.
 
@@ -52,7 +56,7 @@ tags:
 
 ![Applied To](https://cdn.phishx.io/phishx-docs/images/microsoft_365_16.webp)
 
-8. Click **Save**.
+7. Click **Save**.
 
 ![Update complete](https://cdn.phishx.io/phishx-docs/images/microsoft_365_17.webp)
 
