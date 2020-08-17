@@ -28,7 +28,7 @@ tags:
 
 ![New Connector](https://cdn.phishx.io/phishx-docs/images/microsoft_365_11.webp)
 
-3. In **new spam filter policy** -> ***Name** fill "PhishX".
+3. In **new spam filter policy** -> ***Name** fill with "PhishX".
 
 ![Name](https://cdn.phishx.io/phishx-docs/images/microsoft_365_12.webp)
 

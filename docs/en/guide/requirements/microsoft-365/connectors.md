@@ -32,7 +32,7 @@ tags:
 
 ![New Connector](https://cdn.phishx.io/phishx-docs/images/microsoft_365_03.webp)
 
-4. In **Connector name** -> **Name** fill "PhishX" and select **Turn it on**.
+4. In **Connector name** -> **Name** fill with "PhishX" and select **Turn it on**.
 
    Click **Next**.
 
