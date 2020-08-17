@@ -11,6 +11,7 @@ function config_base_locales(extra) {
 }
 function config_locales(locale, extra) {
   var dir_guide = 'guide'
+  var dir_terms = 'terms'
   var dir_requirements = 'requirements'
   var dir_google_gsuite = 'google-gsuite'
   var dir_microsoft_365 = 'microsoft-365'
@@ -26,10 +27,24 @@ function config_locales(locale, extra) {
       {
         text: extra.guide,
         link: `/${locale}/${dir_guide}/`
-      }
+      },
+      {
+        text: extra.terms,
+        link: `/${locale}/${dir_terms}/`
+      },
     ],
     sidebar: [
       `/${locale}/${dir_guide}/`,
+      {
+        title: extra.terms,
+        collapsable: true,
+        sidebarDepth: 0,
+        children: [
+          `/${locale}/${dir_terms}/`,
+          `/${locale}/${dir_terms}/contract`,
+          `/${locale}/${dir_terms}/privacy`,
+        ]
+      },
       {
         title: extra.requirements,
         collapsable: true,
@@ -79,6 +94,7 @@ var config_locales_en = config_locales('en', {
   lang_selectText: 'Languages',
   lang_label: 'English',
   guide: 'Guide',
+  terms: 'Terms',
   lastUpdated: 'Last Updated',
   requirements: 'Requirements',
   global: 'General',
@@ -89,6 +105,7 @@ var config_locales_pt = config_locales('pt', {
   lang_selectText: 'Idiomas',
   lang_label: 'Português',
   guide: 'Guia',
+  terms: 'Termos',
   lastUpdated: 'Última Atualização',
   requirements: 'Requisitos',
   global: 'Gerais',
