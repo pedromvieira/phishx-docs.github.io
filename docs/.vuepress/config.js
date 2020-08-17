@@ -12,10 +12,11 @@ function config_locales(locale, extra) {
   var dir_guide = 'guide'
   var dir_terms = 'terms'
   var dir_requirements = 'requirements'
-  var dir_integrations = 'integrations'
   var dir_google_gsuite = 'google-gsuite'
   var dir_microsoft_365 = 'microsoft-365'
   var dir_azure_ad = 'azure-ad'
+  var dir_integrations = 'integrations'
+  var dir_content = 'content'
   var config = {
     description: extra.description,
     searchPlaceholder: extra.searchPlaceholder,
@@ -39,6 +40,10 @@ function config_locales(locale, extra) {
       {
         text: extra.terms,
         link: `/${locale}/${dir_terms}/`
+      },
+      {
+        text: extra.content,
+        link: `/${locale}/${dir_content}/`
       },
     ],
     sidebar: [
@@ -113,6 +118,14 @@ function config_locales(locale, extra) {
           },
         ]
       },
+      {
+        title: extra.content,
+        collapsable: true,
+        sidebarDepth: 0,
+        children: [
+          `/${locale}/${dir_content}/`,
+        ]
+      },
     ],
   }
   return config
@@ -125,10 +138,11 @@ var config_locales_en = config_locales('en', {
   lastUpdated: 'Last Updated',
   requirements: 'Requirements',
   global: 'General',
+  intregrations: 'Intregrations',
   google_gsuite: 'Google G Suite',
   microsoft_365: 'Microsoft 365',
-  intregrations: 'Intregrations',
   azure_ad: 'Azure AD',
+  content: 'Content',
   serviceWorker_message: 'New content is available.',
   serviceWorker_buttonText: 'Refresh',
   searchPlaceholder: 'Search...'
@@ -141,10 +155,11 @@ var config_locales_pt = config_locales('pt', {
   lastUpdated: 'Última Atualização',
   requirements: 'Requisitos',
   global: 'Gerais',
+  intregrations: 'Integrações',
   google_gsuite: 'Google G Suite',
   microsoft_365: 'Microsoft 365',
-  intregrations: 'Integrações',
   azure_ad: 'Azure AD',
+  content: 'Conteúdo',
   serviceWorker_message: 'Novo conteúdo disponível.',
   serviceWorker_buttonText: 'Atualizar',
   searchPlaceholder: 'Procurar...'

@@ -29,6 +29,117 @@ LOCALE
   TROCAR LOGO???
   PAGINA TROCA DE IDIOMA NO MESMO PATH?
 
+  node_modules/vuepress-theme-succinct/components/ThemeSwitcher.vue
+
+  parent aria-label
+
+<template>
+  <a role="button" @click.prevent="switchTheme()" :aria-label="'Switch to ' + nextTheme + ' mode'" class="nav-link">
+    <span key="dark" v-if="theme === 'dark'" id="templateThemePhishX1"><script>
+      var pathLang
+      var userLang = navigator.language || navigator.userLanguage
+      userLang = userLang.split("-")[0] || "en"
+      var item = document.getElementById("templateThemePhishX1")
+      var pathArray = window.location.pathname.split('/')
+      var pathLocale = pathArray[1]
+      var path
+      switch (pathLocale) {
+        case ("en"):
+          path = "en"
+          break
+        case ("pt"):
+          path = "pt"
+          break
+        default:
+          path = null
+          break
+      }
+      var locale = path || userLang
+      var text
+      switch (locale) {
+        case ("en"):
+          text = "Switch to light mode"
+          break
+        case ("pt"):
+          text = "Mudar para tema claro"
+          break
+        default:
+          text = "Switch to light mode"
+          break
+      }
+      item.innerHTML = text
+    </script></span>
+    <span key="light" v-else-if="theme === 'light'" id="templateThemePhishX2"><script>
+      var pathLang
+      var userLang = navigator.language || navigator.userLanguage
+      userLang = userLang.split("-")[0] || "en"
+      var item = document.getElementById("templateThemePhishX2")
+      var pathArray = window.location.pathname.split('/')
+      var pathLocale = pathArray[1]
+      var path
+      switch (pathLocale) {
+        case ("en"):
+          path = "en"
+          break
+        case ("pt"):
+          path = "pt"
+          break
+        default:
+          path = null
+          break
+      }
+      var locale = path || userLang
+      var text
+      switch (locale) {
+        case ("en"):
+          text = "Switch to dark mode"
+          break
+        case ("pt"):
+          text = "Mudar para tema escuro"
+          break
+        default:
+          text = "Switch to dark mode"
+          break
+      }
+      item.innerHTML = text
+    </script></span>
+    <span key="light" v-else id="templateThemePhishX3"><script>
+      var pathLang
+      var userLang = navigator.language || navigator.userLanguage
+      userLang = userLang.split("-")[0] || "en"
+      var item = document.getElementById("templateThemePhishX3")
+      var pathArray = window.location.pathname.split('/')
+      var pathLocale = pathArray[1]
+      var path
+      switch (pathLocale) {
+        case ("en"):
+          path = "en"
+          break
+        case ("pt"):
+          path = "pt"
+          break
+        default:
+          path = null
+          break
+      }
+      var locale = path || userLang
+      var text
+      switch (locale) {
+        case ("en"):
+          text = "Switch theme"
+          break
+        case ("pt"):
+          text = "Mudar o tema"
+          break
+        default:
+          text = "Switch theme"
+          break
+      }
+      item.innerHTML = text
+    </script></span>
+  </a>
+</template>
+
 
 SPA
   NEW CONTENT AVAILABLE EM Português
