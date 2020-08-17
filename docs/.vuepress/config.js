@@ -13,8 +13,10 @@ function config_locales(locale, extra) {
   var dir_guide = 'guide'
   var dir_terms = 'terms'
   var dir_requirements = 'requirements'
+  var dir_integrations = 'integrations'
   var dir_google_gsuite = 'google-gsuite'
   var dir_microsoft_365 = 'microsoft-365'
+  var dir_azure_ad = 'azure-ad'
   var config = {
     description: extra.description,
     title: extra.title,
@@ -86,6 +88,25 @@ function config_locales(locale, extra) {
           },
         ]
       },
+      {
+        title: extra.intregrations,
+        collapsable: true,
+        sidebarDepth: 0,
+        children: [
+          {
+            title: extra.azure_ad,
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+              `/${locale}/${dir_guide}/${dir_integrations}/${dir_azure_ad}/`,
+              `/${locale}/${dir_guide}/${dir_integrations}/${dir_azure_ad}/application_registration`,
+              `/${locale}/${dir_guide}/${dir_integrations}/${dir_azure_ad}/enterprise_applications`,
+              `/${locale}/${dir_guide}/${dir_integrations}/${dir_azure_ad}/phishx`,
+              `/${locale}/${dir_guide}/${dir_integrations}/${dir_azure_ad}/communications`,
+            ]
+          },
+        ]
+      },
     ],
   }
   return config
@@ -99,7 +120,9 @@ var config_locales_en = config_locales('en', {
   requirements: 'Requirements',
   global: 'General',
   google_gsuite: 'Google G Suite',
-  microsoft_365: 'Microsoft 365'
+  microsoft_365: 'Microsoft 365',
+  intregrations: 'Intregrations',
+  azure_ad: 'Azure AD'
 })
 var config_locales_pt = config_locales('pt', {
   lang_selectText: 'Idiomas',
@@ -110,7 +133,9 @@ var config_locales_pt = config_locales('pt', {
   requirements: 'Requisitos',
   global: 'Gerais',
   google_gsuite: 'Google G Suite',
-  microsoft_365: 'Microsoft 365'
+  microsoft_365: 'Microsoft 365',
+  intregrations: 'Integrações',
+  azure_ad: 'Azure AD'
 })
 var config_base_locales_en = config_base_locales({
   lang: 'English',
