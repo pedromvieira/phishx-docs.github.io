@@ -192,14 +192,11 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#008060' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['meta', { name: 'msapplication-config', content: 'https://cdn.phishx.io/app/icons/browserconfig.xml' }]
+    ['meta', { name: 'msapplication-config', content: 'https://cdn.phishx.io/app/icons/browserconfig.xml' }],
+    ['meta', { name: 'msapplication-config', content: 'https://cdn.phishx.io/app/icons/browserconfig.xml' }],
+    //['link', { rel: 'stylesheet', href: 'https://cdn.phishx.io/assets/fontawesome/css/fontawesome-all.min.css' }],
   ],
   // base: '/',
-  algolia: {
-    apiKey: '158795655be346db4f358da20bc6aef9',
-    appId: 'BH4D9OD16A',
-    indexName: 'phishx'
-  },
   smoothScroll: true,
   locales: {
     '/': config_base_locales_en,
@@ -211,12 +208,16 @@ module.exports = {
   ],
   themeConfig: {
     repo: '',
+    algolia: {
+      apiKey: '158795655be346db4f358da20bc6aef9',
+      indexName: 'phishx'
+    },
     activeHeaderLinks: true,
     editLinks: false,
     displayAllHeaders: true,
     docsDir: '',
     editLinkText: '',
-    logo: 'https://cdn.phishx.io/img/phishx/phishx_logo_gray.png',
+    logo: 'https://cdn.phishx.io/phishx-docs/images/phishx_logo_gray.webp',
     locales: {
       '/': config_locales_en,
       '/pt/': config_locales_pt

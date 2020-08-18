@@ -56,7 +56,7 @@ This instrument contains the general terms and conditions of use of the sites "p
 
 (i) immediately notify P2 of any unauthorized use of YOUR ACCESS DATA or any other breach of security, including, but not limited to, the loss, loss or theft of YOUR ACCESS DATA; and
 
-(ii) logout (correct PLATAFORMA output) into your account at the end of each session of use.
+(ii) logout (correct platform logout) into your account at the end of each session of use.
 
 4.6. We will not be liable for any loss or damage arising from YOUR failure to comply with the provisions of this section.
 
