@@ -11,9 +11,7 @@ ALGOLIA SEARCH
 
 # 2.0
 
-
 SIDEBAR ADVANCED!!
-
 
 IMPROVE
   SET FONT TO NOTO
@@ -140,7 +138,6 @@ LOCALE
   </a>
 </template>
 
-
 SPA
   NEW CONTENT AVAILABLE EM Português
 
@@ -152,6 +149,9 @@ Melhorar traduções oficiais Microsoft
   Exhange
 
 PAGES
+  Usuários
+  Perfil
+  Listas
   Azure AD
   ADFS
   CAMPAIGN FLOW
@@ -159,9 +159,7 @@ PAGES
   IMPORT LISTS
   RESULTS ACTIONS
   Content
-    Videos
-      Others Videos
-    PDFs
+    Others
 
 
 

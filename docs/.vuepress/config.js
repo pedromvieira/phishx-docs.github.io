@@ -124,6 +124,7 @@ function config_locales(locale, extra) {
         sidebarDepth: 0,
         children: [
           `/${locale}/${dir_content}/`,
+          `/${locale}/${dir_content}/third-party`,
         ]
       },
     ],
