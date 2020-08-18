@@ -29,21 +29,21 @@ node_modules/vuepress-theme-succinct/components/NavLinks.vue
                 try {
                   var new_path
                   switch (locale.lang) {
-                    case ("English"):
-                      new_path = "/en/"
+                    case ('English'):
+                      new_path = '/en/'
                       break
-                    case ("Português"):
-                      new_path = "/pt/"
+                    case ('Português'):
+                      new_path = '/pt/'
                       break
                     default:
-                      new_path = "/en/"
+                      new_path = '/en/'
                       break
                   }
                   var pathArray = window.location.pathname.split('/')
                   var newPathArray = pathArray.slice(2,16)
                   newPathArray.unshift(new_path)
-                  var newPathString = newPathArray.join("/")
-                  newPathString = newPathString.replace("//", "/")
+                  var newPathString = newPathArray.join('/')
+                  newPathString = newPathString.replace('//', '/')
                   link = newPathString
                 } catch(e) {
                   console.log(e)
@@ -59,33 +59,33 @@ node_modules/vuepress-theme-succinct/components/ThemeSwitcher.vue
   <a role="button" @click.prevent="switchTheme()" :aria-label="'Switch to ' + nextTheme + ' mode'" class="nav-link">
     <script>
       function phishx_change_locale(id, theme) {
-        var logo_item = document.getElementsByClassName("logo")[0]
+        var logo_item = document.getElementsByClassName('logo')[0]
         var logo_src
         switch (theme) {
-          case ("light"):
-            logo_src = "https://cdn.phishx.io/phishx-docs/images/phishx_logo_gray.webp"
+          case ('light'):
+            logo_src = 'https://cdn.phishx.io/phishx-docs/images/phishx_logo_gray.webp'
             break
-          case ("dark"):
-            logo_src = "https://cdn.phishx.io/phishx-docs/images/phishx_logo_white.webp"
+          case ('dark'):
+            logo_src = 'https://cdn.phishx.io/phishx-docs/images/phishx_logo_white.webp'
             break
           default:
-            logo_src = "https://cdn.phishx.io/phishx-docs/images/phishx_logo_gray.webp"
+            logo_src = 'https://cdn.phishx.io/phishx-docs/images/phishx_logo_gray.webp'
             break
         }
         logo_item.src = logo_src
         var pathLang
         var userLang = navigator.language || navigator.userLanguage
-        userLang = userLang.split("-")[0] || "en"
+        userLang = userLang.split('-')[0] || 'en'
         var item = document.getElementById(id)
         var pathArray = window.location.pathname.split('/')
         var pathLocale = pathArray[1]
         var path
         switch (pathLocale) {
-          case ("en"):
-            path = "en"
+          case ('en'):
+            path = 'en'
             break
-          case ("pt"):
-            path = "pt"
+          case ('pt'):
+            path = 'pt'
             break
           default:
             path = null
@@ -96,34 +96,34 @@ node_modules/vuepress-theme-succinct/components/ThemeSwitcher.vue
         var check = locale + theme
         var base_image = '<img src="https://cdn.phishx.io/icons/palette-light.webp" style="height:18px!important;width:18px!important;" width="18px" height="18px" />'
         switch (check) {
-          case ("endark"):
-            text = "Switch to light mode"
+          case ('endark'):
+            text = 'Switch to light mode'
             break
-          case ("enlight"):
-            text = "Switch to dark mode"
+          case ('enlight'):
+            text = 'Switch to dark mode'
             break
-          case ("ptdark"):
-            text = "Mudar para tema claro"
+          case ('ptdark'):
+            text = 'Mudar para tema claro'
             break
-          case ("ptlight"):
-            text = "Mudar para tema escuro"
+          case ('ptlight'):
+            text = 'Mudar para tema escuro'
             break
-          case ("en"):
-            text = "Switch theme"
+          case ('en'):
+            text = 'Switch theme'
             break
-          case ("pt"):
-            text = "Mudar o tema"
+          case ('pt'):
+            text = 'Mudar o tema'
           default:
-            text = ""
+            text = ''
             break
         }
         text = base_image
         item.innerHTML = text
       }
     </script>
-    <span key="dark" v-if="theme === 'dark'" id="templateThemePhishX1"><script>phishx_change_locale("templateThemePhishX1", "dark")</script></span>
-    <span key="light" v-else-if="theme === 'light'" id="templateThemePhishX2"><script>phishx_change_locale("templateThemePhishX2", "light")</script></span>
-    <span key="light" v-else id="templateThemePhishX3"><script>phishx_change_locale("templateThemePhishX3", "")</script></span>
+    <span key="dark" v-if="theme === 'dark'" id="templateThemePhishX1"><script>phishx_change_locale('templateThemePhishX1', 'dark')</script></span>
+    <span key="light" v-else-if="theme === 'light'" id="templateThemePhishX2"><script>phishx_change_locale('templateThemePhishX2', 'light')</script></span>
+    <span key="light" v-else id="templateThemePhishX3"><script>phishx_change_locale('templateThemePhishX3', '')</script></span>
   </a>
 </template>
 
