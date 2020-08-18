@@ -1,13 +1,8 @@
 ### TO DO
 
-#######
-
-# 1.0
-
-ALGOLIA SEARCH
-  TEST
-
 ### ERRORS
+
+#######
 
 # 2.0
 
@@ -20,12 +15,11 @@ IMPROVE
 
 TEST
   Service workers / OFFLINE
+SPA
+  NEW CONTENT AVAILABLE EM Português
 
 LOCALE
-  'Switch Theme' Localization
   Auto Locale!!!
-  TROCAR LOGO???
-  PAGINA TROCA DE IDIOMA NO MESMO PATH?
 
 
 node_modules/vuepress-theme-succinct/components/NavLinks.vue
@@ -100,6 +94,7 @@ node_modules/vuepress-theme-succinct/components/ThemeSwitcher.vue
         var locale = path || userLang
         var text
         var check = locale + theme
+        var base_image = '<img src="https://cdn.phishx.io/icons/palette-light.webp" style="height:18px!important;width:18px!important;" width="18px" height="18px" />'
         switch (check) {
           case ("endark"):
             text = "Switch to light mode"
@@ -122,6 +117,7 @@ node_modules/vuepress-theme-succinct/components/ThemeSwitcher.vue
             text = ""
             break
         }
+        text = base_image
         item.innerHTML = text
       }
     </script>
@@ -130,9 +126,6 @@ node_modules/vuepress-theme-succinct/components/ThemeSwitcher.vue
     <span key="light" v-else id="templateThemePhishX3"><script>phishx_change_locale("templateThemePhishX3", "")</script></span>
   </a>
 </template>
-
-SPA
-  NEW CONTENT AVAILABLE EM Português
 
 Melhorar páginas PhishX!! FOTOS
   Azure AD
