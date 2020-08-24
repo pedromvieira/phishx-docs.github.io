@@ -17,6 +17,9 @@ function config_locales(locale, extra) {
   var dir_azure_ad = 'azure-ad'
   var dir_integrations = 'integrations'
   var dir_content = 'content'
+  var dir_people = 'people'
+  var dir_people_lists = 'lists'
+  var dir_ui = 'ui'
   var config = {
     description: extra.description,
     searchPlaceholder: extra.searchPlaceholder,
@@ -100,6 +103,33 @@ function config_locales(locale, extra) {
         ]
       },
       {
+        title: extra.ui,
+        collapsable: true,
+        sidebarDepth: 0,
+        children: [
+          `/${locale}/${dir_guide}/${dir_ui}/`,
+        ]
+      },
+      {
+        title: extra.people,
+        collapsable: true,
+        sidebarDepth: 0,
+        children: [
+          `/${locale}/${dir_guide}/${dir_people}/`,
+          {
+            title: extra.people_lists,
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+              `/${locale}/${dir_guide}/${dir_people}/${dir_people_lists}/`,
+              `/${locale}/${dir_guide}/${dir_people}/${dir_people_lists}/import_list`,
+              `/${locale}/${dir_guide}/${dir_people}/${dir_people_lists}/import_directory`,
+              `/${locale}/${dir_guide}/${dir_people}/${dir_people_lists}/add_contacts`,
+            ]
+          },
+        ]
+      },
+      {
         title: extra.intregrations,
         collapsable: true,
         sidebarDepth: 0,
@@ -146,6 +176,9 @@ var config_locales_en = config_locales('en', {
   content: 'Content',
   serviceWorker_message: 'New content is available.',
   serviceWorker_buttonText: 'Refresh',
+  ui: 'User Interface',
+  people: 'People',
+  people_lists: 'Lists',
   searchPlaceholder: 'Search...'
 })
 var config_locales_pt = config_locales('pt', {
@@ -163,6 +196,9 @@ var config_locales_pt = config_locales('pt', {
   content: 'Conteúdo',
   serviceWorker_message: 'Novo conteúdo disponível.',
   serviceWorker_buttonText: 'Atualizar',
+  ui: 'Interface do Usuário',
+  people: 'Pessoas',
+  people_lists: 'Listas',
   searchPlaceholder: 'Procurar...'
 })
 var config_base_locales_en = config_base_locales({
