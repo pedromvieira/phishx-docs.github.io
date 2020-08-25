@@ -108,6 +108,11 @@ function config_locales(locale, extra) {
         sidebarDepth: 0,
         children: [
           `/${locale}/${dir_guide}/${dir_ui}/`,
+          `/${locale}/${dir_guide}/${dir_ui}/filters`,
+          `/${locale}/${dir_guide}/${dir_ui}/search`,
+          `/${locale}/${dir_guide}/${dir_ui}/languages`,
+          `/${locale}/${dir_guide}/${dir_ui}/companies`,
+          `/${locale}/${dir_guide}/${dir_ui}/logout`,
         ]
       },
       {
@@ -125,8 +130,18 @@ function config_locales(locale, extra) {
               `/${locale}/${dir_guide}/${dir_people}/${dir_people_lists}/import_list`,
               `/${locale}/${dir_guide}/${dir_people}/${dir_people_lists}/import_directory`,
               `/${locale}/${dir_guide}/${dir_people}/${dir_people_lists}/add_contacts`,
+              `/${locale}/${dir_guide}/${dir_people}/${dir_people_lists}/random`,
+              `/${locale}/${dir_guide}/${dir_people}/${dir_people_lists}/export`,
+              `/${locale}/${dir_guide}/${dir_people}/${dir_people_lists}/change_fields`,
+              `/${locale}/${dir_guide}/${dir_people}/${dir_people_lists}/delete`,
             ]
           },
+          `/${locale}/${dir_guide}/${dir_people}/storage/`,
+          `/${locale}/${dir_guide}/${dir_people}/contacts/`,
+          `/${locale}/${dir_guide}/${dir_people}/dynamic/`,
+          `/${locale}/${dir_guide}/${dir_people}/smart/`,
+          `/${locale}/${dir_guide}/${dir_people}/results/`,
+          `/${locale}/${dir_guide}/${dir_people}/exclusions/`,
         ]
       },
       {
