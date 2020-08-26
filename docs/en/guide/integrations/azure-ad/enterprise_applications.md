@@ -24,39 +24,39 @@ tags:
 
 3. Go to **Properties**.
 
-	 In **User assignment required?** select **Yes**.
+	In **User assignment required?** select **Yes**.
 
-	 In **Visible to users?** select **No**
+	In **Visible to users?** select **No**
 
-	 Click **Save**.
+	Click **Save**.
 
    ![Properties](https://cdn.phishx.io/phishx-docs/images/azure_ad_15.webp)
 
 4. Go to **Users and Groups**.
 
-    Click **Add user**.
+   Click **Add user**.
 
    ![Users and Groups](https://cdn.phishx.io/phishx-docs/images/azure_ad_16.webp)
 
-    In **Add Assignment** add your **Users** or **Groups**.
+   In **Add Assignment** add your **Users** or **Groups**.
 
-    Click **Select**.
+   Click **Select**.
 
-    Click **Assign**.
+   Click **Assign**.
 
    ![Users and Groups](https://cdn.phishx.io/phishx-docs/images/azure_ad_17.webp)
 
 5. Go to **Permissions**.
 
-    Click **Grant admin consent for ...**.
+   Click **Grant admin consent for ...**.
 
    ![Permissions](https://cdn.phishx.io/phishx-docs/images/azure_ad_18.webp)
 
-    Log in with your **administrative account**.
+   Log in with your **administrative account**.
 
    ![Permissions](https://cdn.phishx.io/phishx-docs/images/azure_ad_19.webp)
 
-    Click **Accept**.
+   Click **Accept**.
 
    ![Permissions](https://cdn.phishx.io/phishx-docs/images/azure_ad_20.webp)
    ![Permissions](https://cdn.phishx.io/phishx-docs/images/azure_ad_21.webp)

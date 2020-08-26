@@ -24,42 +24,42 @@ tags:
 
    Clicar **Adicionar um conector**.
 
-![Adicionar um conector](https://cdn.phishx.io/phishx-docs/images/microsoft_365_02.webp)
+   ![Adicionar um conector](https://cdn.phishx.io/phishx-docs/images/microsoft_365_02.webp)
 
 3. Em **Novo Conector** -> **Conexão de** selecionar **Organização Parceira**.
 
    Clicar **Próximo**.
 
-![New Connector](https://cdn.phishx.io/phishx-docs/images/microsoft_365_03.webp)
+   ![New Connector](https://cdn.phishx.io/phishx-docs/images/microsoft_365_03.webp)
 
 4. Em **Nome do Conector** -> **Nome** inserir "PhishX" e selecionar **Habilitar**.
 
    Clicar **Próximo**.
 
-![Nome do Conector](https://cdn.phishx.io/phishx-docs/images/microsoft_365_04.webp)
+   ![Nome do Conector](https://cdn.phishx.io/phishx-docs/images/microsoft_365_04.webp)
 
 5. Em **Autenticando email enviado** selecionar **Verificar se o endereço IP do servidor de envio corresponde a um dos seguintes endereços IP, que pertencem à sua organização parceira**. Adicionar nossa lista de IPs atual: [IPs](../ips.html#separado-por-linhas).
 
    Clicar **Próximo**.
 
-![Autenticando email enviado](https://cdn.phishx.io/phishx-docs/images/microsoft_365_05.webp)
+   ![Autenticando email enviado](https://cdn.phishx.io/phishx-docs/images/microsoft_365_05.webp)
 
 6. Em **Restrições de Segurança** selecionar **Rejeitar mensagens de e-mail se não forem enviadas por TLS**.
 
    Clicar **Próximo**.
 
-![Restrições de Segurança](https://cdn.phishx.io/phishx-docs/images/microsoft_365_06.webp)
+   ![Restrições de Segurança](https://cdn.phishx.io/phishx-docs/images/microsoft_365_06.webp)
 
 7. In **Resumo do Conector**.
 
    Clicar **Criar conector**.
 
-![Resumo do Conector](https://cdn.phishx.io/phishx-docs/images/microsoft_365_07.webp)
+   ![Resumo do Conector](https://cdn.phishx.io/phishx-docs/images/microsoft_365_07.webp)
 
 8. Em **Conector criado**.
 
    Clicar **Pronto**.
 
-![Conector criado](https://cdn.phishx.io/phishx-docs/images/microsoft_365_08.webp)
+   ![Conector criado](https://cdn.phishx.io/phishx-docs/images/microsoft_365_08.webp)
 
-![Conector criado](https://cdn.phishx.io/phishx-docs/images/microsoft_365_09.webp)
+   ![Conector criado](https://cdn.phishx.io/phishx-docs/images/microsoft_365_09.webp)

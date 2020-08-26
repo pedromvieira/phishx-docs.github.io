@@ -24,39 +24,39 @@ tags:
 
 3. Ir em **Propriedades**.
 
-	 Em **Atribuição de usuário necessária?** selecionar **Sim**.
+	Em **Atribuição de usuário necessária?** selecionar **Sim**.
 
-	 Em **Visível para os usuários?** selecionar **Não**
+	Em **Visível para os usuários?** selecionar **Não**
 
-	 Clicar **Salvar**.
+	Clicar **Salvar**.
 
    ![Propriedades](https://cdn.phishx.io/phishx-docs/images/azure_ad_15.webp)
 
 4. Ir em **Usuários e Grupos**.
 
-    Clicar **Adicionar usuário**.
+   Clicar **Adicionar usuário**.
 
    ![Usuários e Grupos](https://cdn.phishx.io/phishx-docs/images/azure_ad_16.webp)
 
-    Em **Adicionar Atribuição** adicionar os seus **Usuários** ou **Grupos**.
+   Em **Adicionar Atribuição** adicionar os seus **Usuários** ou **Grupos**.
 
-    Clicar **Selecionar**.
+   Clicar **Selecionar**.
 
-    Clicar **Atribuir**.
+   Clicar **Atribuir**.
 
    ![Usuários e Grupos](https://cdn.phishx.io/phishx-docs/images/azure_ad_17.webp)
 
 5. Ir em **Permissões**.
 
-    Clicar **Conceder consentimento de administrador para ...**.
+   Clicar **Conceder consentimento de administrador para ...**.
 
    ![Permissões](https://cdn.phishx.io/phishx-docs/images/azure_ad_18.webp)
 
-    Faça login com sua **conta administrativa**.
+   Faça login com sua **conta administrativa**.
 
    ![Permissões](https://cdn.phishx.io/phishx-docs/images/azure_ad_19.webp)
 
-    Clicar **Aceitar**.
+   Clicar **Aceitar**.
 
    ![Permissões](https://cdn.phishx.io/phishx-docs/images/azure_ad_20.webp)
    ![Permissões](https://cdn.phishx.io/phishx-docs/images/azure_ad_21.webp)

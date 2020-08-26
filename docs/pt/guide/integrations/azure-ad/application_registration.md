@@ -30,9 +30,9 @@ tags:
 
    Em **Tipos de conta com suporte** selecionar **Contas somente neste diretório organizacional (... somente - locatário único)**.
 
-	 Em **URI de redirecionamento (opcional)** inserir a sua **URL da PhishX**: **https://meu_subdominio.phishx.io/azuread**
+   Em **URI de redirecionamento (opcional)** inserir a sua **URL da PhishX**: **https://meu_subdominio.phishx.io/azuread**
 
-	 Clicar **Registrar**.
+   Clicar **Registrar**.
 
    ![Novo Registro](https://cdn.phishx.io/phishx-docs/images/azure_ad_04.webp)
 

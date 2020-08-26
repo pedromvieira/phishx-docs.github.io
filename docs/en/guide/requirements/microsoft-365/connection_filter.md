@@ -18,7 +18,7 @@ tags:
 
    [Exchange Admin Center](https://outlook.office365.com/ecp/)
 
-![Exchange Admin Center](https://cdn.phishx.io/phishx-docs/images/microsoft_365_10.webp)
+   ![Exchange Admin Center](https://cdn.phishx.io/phishx-docs/images/microsoft_365_10.webp)
 
 2. Go to **connection filter** in menu: **protection** -> **connection filter**.
 
@@ -26,7 +26,7 @@ tags:
 
    [Reference](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/configure-the-connection-filter-policy)
 
-![connection filter](https://cdn.phishx.io/phishx-docs/images/microsoft_365_21.webp)
+   ![connection filter](https://cdn.phishx.io/phishx-docs/images/microsoft_365_21.webp)
 
 3. In **connection filtering** -> **IP Allow list**.
 
@@ -34,10 +34,10 @@ tags:
 
    Add our current IPs list: [IPs](../ips.html#separated-by-lines).
 
-![IP Allow list](https://cdn.phishx.io/phishx-docs/images/microsoft_365_22.webp)
+   ![IP Allow list](https://cdn.phishx.io/phishx-docs/images/microsoft_365_22.webp)
 
 4. Click **Save**.
 
-![Information](https://cdn.phishx.io/phishx-docs/images/microsoft_365_23.webp)
+   ![Information](https://cdn.phishx.io/phishx-docs/images/microsoft_365_23.webp)
 
 5. Click **Ok**.

@@ -19,7 +19,7 @@ Você pode filtrar os resultados de painéis e tabelas, além de pesquisar objet
 
    Escolher os novos filtros.
 
-<br>
+   <br>
 
    ![Filtros de Painéis](https://cdn.phishx.io/phishx-docs/images/phishx_ui_filter_01.webp)
 
@@ -29,6 +29,6 @@ Você pode filtrar os resultados de painéis e tabelas, além de pesquisar objet
 
    Escolher os novos filtros.
 
-<br>
+   <br>
 
    ![Filtros de Tabelas](https://cdn.phishx.io/phishx-docs/images/phishx_ui_filter_02.webp)

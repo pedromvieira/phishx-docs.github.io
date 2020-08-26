@@ -18,7 +18,7 @@ tags:
 
    [Exchange Admin Center](https://outlook.office365.com/ecp/)
 
-![Exchange Admin Center](https://cdn.phishx.io/phishx-docs/images/microsoft_365_10.webp)
+   ![Exchange Admin Center](https://cdn.phishx.io/phishx-docs/images/microsoft_365_10.webp)
 
 2. Go to **spam filter** in menu: **protection** -> **spam filter**.
 
@@ -26,11 +26,11 @@ tags:
 
    [Reference](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/configure-your-spam-filter-policies)
 
-![New Connector](https://cdn.phishx.io/phishx-docs/images/microsoft_365_11.webp)
+   ![New Connector](https://cdn.phishx.io/phishx-docs/images/microsoft_365_11.webp)
 
 3. In **new spam filter policy** -> ***Name** fill with "PhishX".
 
-![Name](https://cdn.phishx.io/phishx-docs/images/microsoft_365_12.webp)
+   ![Name](https://cdn.phishx.io/phishx-docs/images/microsoft_365_12.webp)
 
 4. In **new spam filter policy** -> **Domains allow list** -> **Always deliver email from the following domains to the inbox**.
 
@@ -44,24 +44,24 @@ tags:
    Remove any extra spaces after paste.
    :::
 
-![add allowed domain](https://cdn.phishx.io/phishx-docs/images/microsoft_365_13.webp)
+   ![add allowed domain](https://cdn.phishx.io/phishx-docs/images/microsoft_365_13.webp)
 
-![add allowed domain](https://cdn.phishx.io/phishx-docs/images/microsoft_365_14.webp)
+   ![add allowed domain](https://cdn.phishx.io/phishx-docs/images/microsoft_365_14.webp)
 
 6. In **new spam filter policy** -> **Applied To** select **The recipient domain is** and add your own domains.
 
    Click **Ok**.
 
-![Applied To](https://cdn.phishx.io/phishx-docs/images/microsoft_365_15.webp)
+   ![Applied To](https://cdn.phishx.io/phishx-docs/images/microsoft_365_15.webp)
 
-![Applied To](https://cdn.phishx.io/phishx-docs/images/microsoft_365_16.webp)
+   ![Applied To](https://cdn.phishx.io/phishx-docs/images/microsoft_365_16.webp)
 
 7. Click **Save**.
 
-![Update complete](https://cdn.phishx.io/phishx-docs/images/microsoft_365_17.webp)
+   ![Update complete](https://cdn.phishx.io/phishx-docs/images/microsoft_365_17.webp)
 
-![Information](https://cdn.phishx.io/phishx-docs/images/microsoft_365_18.webp)
+   ![Information](https://cdn.phishx.io/phishx-docs/images/microsoft_365_18.webp)
 
-![Connector created](https://cdn.phishx.io/phishx-docs/images/microsoft_365_19.webp)
+   ![Connector created](https://cdn.phishx.io/phishx-docs/images/microsoft_365_19.webp)
 
-![spam filter](https://cdn.phishx.io/phishx-docs/images/microsoft_365_20.webp)
+   ![spam filter](https://cdn.phishx.io/phishx-docs/images/microsoft_365_20.webp)
