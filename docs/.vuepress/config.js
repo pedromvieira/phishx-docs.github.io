@@ -19,6 +19,8 @@ function config_locales(locale, extra) {
   var dir_content = 'content'
   var dir_people = 'people'
   var dir_people_lists = 'lists'
+  var dir_users = 'users'
+  var dir_teams = 'teams'
   var dir_ui = 'ui'
   var config = {
     description: extra.description,
@@ -145,6 +147,23 @@ function config_locales(locale, extra) {
         ]
       },
       {
+        title: extra.users,
+        collapsable: true,
+        sidebarDepth: 0,
+        children: [
+          `/${locale}/${dir_guide}/${dir_users}/`,
+          `/${locale}/${dir_guide}/${dir_users}/first_access`,
+          `/${locale}/${dir_guide}/${dir_users}/login`,
+          `/${locale}/${dir_guide}/${dir_users}/profile`,
+          `/${locale}/${dir_guide}/${dir_users}/authentication`,
+          `/${locale}/${dir_guide}/${dir_users}/authorization`,
+          `/${locale}/${dir_guide}/${dir_users}/reset_password`,
+          `/${locale}/${dir_guide}/${dir_users}/unlock_account`,
+          `/${locale}/${dir_guide}/${dir_users}/create_user`,
+          `/${locale}/${dir_guide}/${dir_users}/send_password`,
+        ]
+      },
+      {
         title: extra.intregrations,
         collapsable: true,
         sidebarDepth: 0,
@@ -194,6 +213,8 @@ var config_locales_en = config_locales('en', {
   ui: 'User Interface',
   people: 'People',
   people_lists: 'Lists',
+  users: 'Users',
+  teams: 'Teams',
   searchPlaceholder: 'Search...'
 })
 var config_locales_pt = config_locales('pt', {
@@ -214,6 +235,8 @@ var config_locales_pt = config_locales('pt', {
   ui: 'Interface do Usuário',
   people: 'Pessoas',
   people_lists: 'Listas',
+  users: 'Usuários',
+  teams: 'Times',
   searchPlaceholder: 'Procurar...'
 })
 var config_base_locales_en = config_base_locales({
