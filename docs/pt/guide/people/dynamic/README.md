@@ -26,7 +26,7 @@ Gerenciar listas baseadas em regras de negócios.
 
    Em **País** definir o país principal de sua lista.
 
-   Em **Idioma** definir um nome único para sua lista.
+   Em **Idioma** definir o idioma principal para sua lista.
 
    Opcionalmente em **Etiquetas** definir etiquetas para categorizar sua lista.
 

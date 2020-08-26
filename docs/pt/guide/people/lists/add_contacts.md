@@ -27,9 +27,9 @@ Se você for importar múltiplos contatos ou atributos, sugerimos importar via u
 
    Opcionalmente em **Telefone** adicionar um telefone válido.
 
-::: details Telefones
-O telefone precisa ser informado no formato internacional (Ex: +5511951570615).<br>
-:::
+   ::: details Telefones
+   O telefone precisa ser informado no formato internacional (Ex: +5511951570615).
+   :::
 
    Opcionalmente adiconar quantos atributos adicionais por contato em **+**.
 

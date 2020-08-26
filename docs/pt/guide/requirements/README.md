@@ -27,8 +27,7 @@ Recomendamos permitir todos os nossos domínios e IPs.
 :::
 
 ::: details Requisitos Mínimos
-Você pode escolher "phishx.io" e qualquer outro domínio disponível como requisitos mínimos.
-<br>
+Você pode escolher "phishx.io" e qualquer outro domínio disponível como requisitos mínimos.<br>
 Se você precisar permitir apenas o nome de domínio totalmente qualificado (FQDN), escolha um nome de host (ex: "host") e permita apenas "cdn.phishx.io" e "host.PHISHX_DOMINIO_ESCOLHIDO".
 :::
 

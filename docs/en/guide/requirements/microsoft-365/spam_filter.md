@@ -40,9 +40,9 @@ tags:
 
    Click **Ok**.
 
-::: tip TIP
-Remove any extra spaces after paste.
-:::
+   ::: tip TIP
+   Remove any extra spaces after paste.
+   :::
 
 ![add allowed domain](https://cdn.phishx.io/phishx-docs/images/microsoft_365_13.webp)
 

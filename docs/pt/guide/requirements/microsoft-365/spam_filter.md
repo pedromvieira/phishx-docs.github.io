@@ -40,9 +40,9 @@ tags:
 
    Clicar **Ok**.
 
-::: tip DICA
-Remover todos os espaços extras após colar.
-:::
+   ::: tip DICA
+   Remover todos os espaços extras após colar.
+   :::
 
 ![adicionar domínio permitido](https://cdn.phishx.io/phishx-docs/images/microsoft_365_13.webp)
 

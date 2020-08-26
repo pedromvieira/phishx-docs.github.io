@@ -16,13 +16,13 @@ A sua experiência na plataforma pode ser adequada de acordo com o seu perfil at
 
 ## Menu Principal
 
-::: tip Menu Principal
-A plataforma identifica o seu acesso e expande o caminho completo do seu Menu Principal.
-:::
+   ::: tip Menu Principal
+   A plataforma identifica o seu acesso e expande o caminho completo do seu Menu Principal.
+   :::
 
    Acessar o Menu Principal arrastando o mouse para o canto esquerdo ou clicando em algum ícone lateral.
 
-<br>
+   <br>
 
    ![Menu Principal](https://cdn.phishx.io/phishx-docs/images/phishx_ui_menu_01.webp)
 
@@ -30,7 +30,7 @@ A plataforma identifica o seu acesso e expande o caminho completo do seu Menu Pr
 
    Clicar no ícone ou sua foto para acessar o Menu do Usuário.
 
-<br>
+   <br>
 
    ![Menu do Usuário](https://cdn.phishx.io/phishx-docs/images/phishx_ui_user_menu_01.webp)
 
@@ -38,7 +38,7 @@ A plataforma identifica o seu acesso e expande o caminho completo do seu Menu Pr
 
    Clicar no ícone do item em uma tabela para acessar as ações permitidas para o seu acesso.
 
-<br>
+   <br>
 
    ![Menu de Ações do Item](https://cdn.phishx.io/phishx-docs/images/phishx_ui_actions_01.webp)
 
@@ -46,7 +46,7 @@ A plataforma identifica o seu acesso e expande o caminho completo do seu Menu Pr
 
    Clicar nos **...** do item em uma tabela para acessar as informações extras.
 
-<br>
+   <br>
 
    ![Informações extras do Item](https://cdn.phishx.io/phishx-docs/images/phishx_ui_extra_information_01.webp)
 
@@ -54,7 +54,7 @@ A plataforma identifica o seu acesso e expande o caminho completo do seu Menu Pr
 
    Passar o mouse em cima de um item pode trazer informações adicionais.
 
-<br>
+   <br>
 
    ![Passar o mouse sobre um Item](https://cdn.phishx.io/phishx-docs/images/phishx_ui_hover_01.webp)
 
@@ -64,6 +64,6 @@ A plataforma identifica o seu acesso e expande o caminho completo do seu Menu Pr
 
    Clicar **Sim**.
 
-<br>
+   <br>
 
    ![Confirmar uma ação](https://cdn.phishx.io/phishx-docs/images/phishx_ui_confirmation_01.webp)

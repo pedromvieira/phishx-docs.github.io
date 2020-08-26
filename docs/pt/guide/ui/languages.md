@@ -9,9 +9,9 @@ tags:
 ---
 # Alterar o Idioma
 
-::: tip Idioma
-A plataforma por padrão identifica o idioma do seu navegador e já altera para o idioma disponível.
-:::
+   ::: tip Idioma
+   A plataforma por padrão identifica o idioma do seu navegador e já altera para o idioma disponível.
+   :::
 
    Dentro do Menu do Usuário, clicar em **Idioma**.
 

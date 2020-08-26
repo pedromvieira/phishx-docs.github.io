@@ -9,9 +9,9 @@ tags:
 ---
 # Alterar a Empresa
 
-::: tip Empresas e Ambientes
-Sua empresa pode ter acesso a múltiplos ambientes.
-:::
+   ::: tip Empresas e Ambientes
+   Sua empresa pode ter acesso a múltiplos ambientes.
+   :::
 
    Dentro do Menu do Usuário, clicar em **Empresa**.
 

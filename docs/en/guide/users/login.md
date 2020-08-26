@@ -16,7 +16,13 @@ Como acessar sua plataforma.
 
 1. Acessar o seu ambiente PhishX.
 
-   Acessar no seu navegador o endereço **MEU_SUBDOMÍNIO.phishx.io**.
+   Acessar no seu navegador o endereço **SUBDOMÍNIO.phishx.io**.
+
+   ::: details Subdomínio
+   O seu ambiente no PhishX é identificado pelo seu subdomínio.<br>
+   Geralmente o seu subdomínio será o mesmo do domínio principal da página de sua empresa. (Ex: www.**phishx**.io -> **phishx**.phishx.io)<br>
+   Caso sua empresa possua mais de uma ambiente no PhishX, você pode confirmar com o seu time, ou com o [PhishX Support](mailto:support@phishx.io), qual seu endereço de acesso.
+   :::
 
    ![Login](https://cdn.phishx.io/phishx-docs/images/phishx_login_01.webp)
 
@@ -38,9 +44,9 @@ Como acessar sua plataforma.
 
    Caso você utilize uma **autenticação integrada com nossos parceiros**, será direcionado ao **respectivo portal de autenticação**.
 
-::: details Acessos externos
-Você precisa se autenticar com uma conta externa com o mesmo e-mail da sua conta PhishX.
-:::
+   ::: details Acessos externos
+   Você precisa se autenticar com uma conta externa com o mesmo e-mail da sua conta PhishX.
+   :::
 <br>
 
    ![Google](https://cdn.phishx.io/phishx-docs/images/phishx_login_external_01.webp)

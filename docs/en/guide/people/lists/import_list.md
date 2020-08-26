@@ -25,7 +25,7 @@ Você pode importar e atualizar informações dos contatos existentes com o mesm
 
    Em **País** definir o país principal de sua lista.
 
-   Em **Idioma** definir um nome único para sua lista.
+   Em **Idioma** definir o idioma principal para sua lista.
 
    Opcionalmente em **Etiquetas** definir etiquetas para categorizar sua lista.
 
@@ -41,17 +41,17 @@ Você pode importar e atualizar informações dos contatos existentes com o mesm
 
    Clicar **Enviar**.
 
-::: details Arquivo no formato XLSX
-Seu arquivo precisa ter apenas uma aba principal.<br>
-Seu arquivo não pode ter nenhuma proteção por senhas.<br>
-Seu arquivo precisa ter no mínimo uma coluna com o cabeçalho **email** e o respectivo email válido do contato.<br>
-Opcionalmente informar no cabeçalho **phone** um telefone válido.<br>
-Não importaremos contatos com emails duplicados.<br>
-:::
+   ::: details Arquivo no formato XLSX
+   Seu arquivo precisa ter apenas uma aba principal.<br>
+   Seu arquivo não pode ter nenhuma proteção por senhas.<br>
+   Seu arquivo precisa ter no mínimo uma coluna com o cabeçalho **email** e o respectivo email válido do contato.<br>
+   Opcionalmente informar no cabeçalho **phone** um telefone válido.<br>
+   Não importaremos contatos com emails duplicados.
+   :::
 
-::: details Telefones
-O telefone precisa ser informado no formato internacional (Ex: +5511951570615).<br>
-:::
+   ::: details Telefones
+   O telefone precisa ser informado no formato internacional (Ex: +5511951570615).
+   :::
 
    ![Carregar Lista](https://cdn.phishx.io/phishx-docs/images/phishx_lists_people_new_03.webp)
 

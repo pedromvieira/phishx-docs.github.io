@@ -13,7 +13,6 @@ As listas de resultados ajudam no envio de novas campanhas para pessoas que não
 
 Gerenciar baseadas em resultados das campanhas.
 
-
 1. Acessar o menu **Pessoas** -> **Resultados**.
 
    ![Resultados](https://cdn.phishx.io/phishx-docs/images/phishx_lists_results_01.webp)

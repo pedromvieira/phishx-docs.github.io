@@ -9,9 +9,9 @@ tags:
 ---
 # Sair da Plataforma
 
-::: tip Sair
-Recomendamos que você sempre saia da plataforma antes de encerrar uma atividade.
-:::
+   ::: tip Sair
+   Recomendamos que você sempre saia da plataforma antes de encerrar uma atividade.
+   :::
 
    Dentro do Menu do Usuário, clicar em **Sair**.
 
