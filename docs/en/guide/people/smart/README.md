@@ -5,7 +5,7 @@ tags:
   - Listas
   - Contatos
 ---
-# Listas Inteligente
+# Listas Inteligentes
 
 ::: tip Listas Automáticas
 As listas inteligentes ajudam no envio de novas campanhas para pessoas de um departamento ou grupo específico.

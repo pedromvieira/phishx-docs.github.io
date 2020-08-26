@@ -7,6 +7,10 @@ tags:
 ---
 # Adicionar Contatos
 
+::: tip Muitos contatos
+Se você for importar múltiplos contatos ou atributos, sugerimos importar via uma lista no formato xlsx.
+:::
+
 1. Acessar o menu **Pessoas** -> **Listas**.
 
    ![Listas](https://cdn.phishx.io/phishx-docs/images/phishx_lists_people_01.webp)

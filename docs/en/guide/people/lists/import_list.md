@@ -7,6 +7,10 @@ tags:
 ---
 # Importar Lista
 
+::: tip Adicionar novas informações
+Você pode importar e atualizar informações dos contatos existentes com o mesmo e-mail.
+:::
+
 1. Acessar o menu **Pessoas** -> **Listas**.
 
    ![Listas](https://cdn.phishx.io/phishx-docs/images/phishx_lists_people_01.webp)

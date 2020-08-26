@@ -9,6 +9,10 @@ tags:
 ---
 # Importar Diretório
 
+::: tip Importar todos os contatos
+Você pode importar todos os contatos de seus diretórios do Google G Suite ou do Microsoft 365.
+:::
+
 1. Acessar o menu **Pessoas** -> **Listas**.
 
    ![Listas](https://cdn.phishx.io/phishx-docs/images/phishx_lists_people_01.webp)
