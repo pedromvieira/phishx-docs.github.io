@@ -301,20 +301,12 @@ module.exports = {
     '@vuepress/plugin-back-to-top',
     'vuepress-plugin-smooth-scroll',
     '@vuepress/plugin-medium-zoom',
-    'vuepress-plugin-export',
     [
       '@vuepress/search',
       {
         searchMaxSuggestions: 10
       }
     ],
-    // [
-    //   '@vuepress/pwa',
-    //   {
-    //     serviceWorker: true,
-    //     updatePopup: true
-    //   }
-    // ],
     [
       '@vuepress/last-updated',
       {

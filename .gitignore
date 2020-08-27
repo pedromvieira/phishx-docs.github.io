@@ -1,3 +1,15 @@
+pids
+logs
+npm-debug.log
+coverage/
+run
+dist
+.DS_Store
+**/.DS_Store
+.nyc_output
+.basement
+config.local.js
+basement_dist
 node_modules/
 docs/.vuepress/dist/
 PhishX.pdf
