@@ -31,12 +31,12 @@ function config_locales(locale, extra) {
     label: extra.lang_label,
     ariaLabel: extra.lang_selectText,
     lastUpdated: extra.lastUpdated,
-    serviceWorker: {
-      updatePopup: {
-        message: extra.serviceWorker_message,
-        buttonText: extra.serviceWorker_buttonText
-      }
-    },
+    // serviceWorker: {
+    //   updatePopup: {
+    //     message: extra.serviceWorker_message,
+    //     buttonText: extra.serviceWorker_buttonText
+    //   }
+    // },
     nav: [
       {
         text: extra.guide,
@@ -308,13 +308,13 @@ module.exports = {
         searchMaxSuggestions: 10
       }
     ],
-    [
-      '@vuepress/pwa',
-      {
-        serviceWorker: true,
-        updatePopup: true
-      }
-    ],
+    // [
+    //   '@vuepress/pwa',
+    //   {
+    //     serviceWorker: true,
+    //     updatePopup: true
+    //   }
+    // ],
     [
       '@vuepress/last-updated',
       {
