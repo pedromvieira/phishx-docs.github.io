@@ -21,6 +21,10 @@ function config_locales(locale, extra) {
   var dir_people_lists = 'lists'
   var dir_users = 'users'
   var dir_teams = 'teams'
+  var dir_companies = 'companies'
+  var dir_security = 'security'
+  var dir_customization = 'customization'
+  var dir_settings = 'settings'
   var dir_ui = 'ui'
   var config = {
     description: extra.description,
@@ -164,6 +168,65 @@ function config_locales(locale, extra) {
         ]
       },
       {
+        title: extra.companies,
+        collapsable: true,
+        sidebarDepth: 0,
+        children: [
+          `/${locale}/${dir_guide}/${dir_companies}/`,
+          {
+            title: extra.profile,
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+              `/${locale}/${dir_guide}/${dir_companies}/profile`,
+              {
+                title: extra.settings,
+                collapsable: true,
+                sidebarDepth: 0,
+                children: [
+                `/${locale}/${dir_guide}/${dir_companies}/${dir_settings}/campaign_approval`,
+                `/${locale}/${dir_guide}/${dir_companies}/${dir_settings}/template_approval`,
+                `/${locale}/${dir_guide}/${dir_companies}/${dir_settings}/domains`,
+                `/${locale}/${dir_guide}/${dir_companies}/${dir_settings}/validation_emails`,
+                `/${locale}/${dir_guide}/${dir_companies}/${dir_settings}/labels`,
+                ],
+              },
+              {
+                title: extra.customization,
+                collapsable: true,
+                sidebarDepth: 0,
+                children: [
+                  `/${locale}/${dir_guide}/${dir_companies}/${dir_customization}/emails`,
+                  `/${locale}/${dir_guide}/${dir_companies}/${dir_customization}/branding`,
+                ],
+              },
+              {
+                title: extra.security,
+                collapsable: true,
+                sidebarDepth: 0,
+                children: [
+                  `/${locale}/${dir_guide}/${dir_companies}/${dir_security}/providers`,
+                  `/${locale}/${dir_guide}/${dir_companies}/${dir_security}/authentication`,
+                  `/${locale}/${dir_guide}/${dir_companies}/${dir_security}/adfs`,
+                  `/${locale}/${dir_guide}/${dir_companies}/${dir_security}/azure_ad`,
+                  `/${locale}/${dir_guide}/${dir_companies}/${dir_security}/hours`,
+                  `/${locale}/${dir_guide}/${dir_companies}/${dir_security}/portal_auth`,
+                  `/${locale}/${dir_guide}/${dir_companies}/${dir_security}/passwords`,
+                  `/${locale}/${dir_guide}/${dir_companies}/${dir_security}/networks`,
+                ],
+              },
+            ]
+          },
+          `/${locale}/${dir_guide}/${dir_companies}/create_company`,
+          `/${locale}/${dir_guide}/${dir_companies}/change_company`,
+          `/${locale}/${dir_guide}/${dir_companies}/api`,
+          `/${locale}/${dir_guide}/${dir_companies}/companies`,
+          `/${locale}/${dir_guide}/${dir_companies}/subscriptions`,
+          `/${locale}/${dir_guide}/${dir_companies}/tokens`,
+          `/${locale}/${dir_guide}/${dir_companies}/audit`,
+        ]
+      },
+      {
         title: extra.intregrations,
         collapsable: true,
         sidebarDepth: 0,
@@ -215,6 +278,11 @@ var config_locales_en = config_locales('en', {
   people_lists: 'Lists',
   users: 'Users',
   teams: 'Teams',
+  companies: 'Companies',
+  security: 'Security',
+  customization: 'Customization',
+  settings: 'Settings',
+  profile: 'Profile',
   searchPlaceholder: 'Search...'
 })
 var config_locales_pt = config_locales('pt', {
@@ -237,6 +305,11 @@ var config_locales_pt = config_locales('pt', {
   people_lists: 'Listas',
   users: 'Usuários',
   teams: 'Times',
+  companies: 'Empresas',
+  security: 'Segurança',
+  customization: 'Customizações',
+  settings: 'Configurações',
+  profile: 'Perfil',
   searchPlaceholder: 'Procurar...'
 })
 var config_base_locales_en = config_base_locales({
