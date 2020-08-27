@@ -3,4 +3,4 @@ DATE=`date "+%Y%m%d-%H"`
 git add .
 git commit -m pre-deploy_$DATE
 git push https://phishx-docs@github.com/phishx-docs/phishx-docs.github.io.git master
-git push https://phishx-docs@github.com/phishx-docs/phishx-docs.github.io.git
+git push
