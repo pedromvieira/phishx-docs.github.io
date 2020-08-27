@@ -14,3 +14,4 @@ git push https://phishx-docs@github.com/phishx-docs/phishx-docs.github.io.git
 
 # go back
 git checkout master
+git push https://phishx-docs@github.com/phishx-docs/phishx-docs.github.io.git
